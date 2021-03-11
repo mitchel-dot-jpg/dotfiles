@@ -7,7 +7,7 @@ my .bashrc, .vimrc, and windows terminal config
 - Add new line "LS_COLORS=:'ow=1;34:' ; export LS_COLORS"
   - remoces directory highlighting in terminal e.g. when using ls
 
-## changes made to options.json
+## changes made to options.json (terminal config)
 - change starting directory to custom windows folder e.g. dropbox
   - "startingDirectory": "%__CD__%/../../Users/<user>/Document"
 - using theme monkai night
