@@ -8,6 +8,6 @@ my .bashrc, .vimrc, and windows terminal config
   - removes directory highlighting in terminal e.g. when using ls
 
 ## changes made to options.json (terminal config)
-- change starting directory to custom windows folder e.g. dropbox
-  - "startingDirectory": "%__CD__%/../../Users/<user>/Document"
+- change starting directory to custom windows folder e.g. Documents
+  - "startingDirectory": "%__CD__%/../../Users/\<user>/Document"
 - using theme monkai night
