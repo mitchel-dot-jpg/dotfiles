@@ -1,4 +1,4 @@
-# Windows terminal dotfiles
+# Windows terminal
 my .bashrc, .vimrc, and windows terminal config
 
 ## changes made to .bashrc
