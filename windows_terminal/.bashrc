@@ -117,3 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 LS_COLORS=$LS_COLORS:'ow=1;34:' ; export LS_COLORS
+
+# copy stndout to clipboard from WSL
+alias copy='clip.exe'
