@@ -9,26 +9,29 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'godlygeek/csapprox' "for transparency function
+Plugin 'ervandew/supertab' "tab autocopmlete for functions and variable names, etc.
+Plugin 'tpope/vim-endwise' "autocomplete structures
 
 call vundle#end()
 filetype plugin indent on
 
-"To enable transparancy with vim theme
+"To enable windows transparent theme with vim theme
 function! AdaptColorscheme()
 	    hi clear CursorLine
-	    hi Normal ctermbg=none guibg = NONE
+		hi Normal ctermbg=none guibg = NONE
 	    hi LineNr ctermbg=none guibg = NONE
-	    hi Folded ctermbg=none guibg = NONE
+		hi Folded ctermbg=none guibg = NONE
 	    hi NonText ctermbg=none guibg = NONE
 	    hi SpecialKey ctermbg=none guibg = NONE
-	    hi VertSplit ctermbg=none guibg = NONE
+		hi VertSplit ctermbg=none guibg = NONE
 	    hi SignColumn ctermbg=none guibg = NONE
 endfunction
-autocmd ColorScheme * call AdaptColorscheme()
-
-
+"autocmd ColorScheme * call AdaptColorscheme()
+ 
+set background=dark
+colorscheme base16-atelierheath
 "colorscheme paintbox
-colorscheme monokain
+"colorscheme monokain
 
 if has('nvim') || has('termguicolors')
 	set termguicolors
