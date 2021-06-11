@@ -1,4 +1,4 @@
-# Windows terminal
+# Windows terminal / WSL
 my .bashrc, .vimrc, and windows terminal config
 
 ## changes made to .bashrc
