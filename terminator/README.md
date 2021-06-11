@@ -3,7 +3,7 @@
 # Terminator Key Bindings 
 **Split vertical**  -  Shift + super + down arrow </br>
 **Split Horizontal**  -  shift + super + right arrow    
-**Navigate**  -  alt + arrow keys
+**Navigate**  -  alt + arrow keys </br>
 **Close term**  -  Ctrl + shift + w
-**New tab**  -  Ctrl + shift + t
+**New tab**  -  Ctrl + shift + t </br>
 **Switch tab** - Ctrl + page up/down
