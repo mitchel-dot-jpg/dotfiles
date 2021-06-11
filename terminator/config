@@ -1,0 +1,27 @@
+[global_config]
+  title_transmit_bg_color = "#00025b"
+  title_receive_bg_color = "#430000"
+  title_inactive_fg_color = "#ffffff"
+  title_inactive_bg_color = "#23252e"
+  suppress_multiple_term_dialog = True
+[keybindings]
+  split_horiz = <Shift><Super>Down
+  split_vert = <Shift><Super>Right
+  search = <Primary><Shift>f
+[profiles]
+  [[default]]
+    background_color = "#0a0011"
+    background_darkness = 0.95
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    foreground_color = "#c0bfbc"
+    palette = "#241f31:#dc322f:#e5a50a:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
