@@ -4,6 +4,6 @@
 **Split vertical**  -  Shift + super + down arrow </br>
 **Split Horizontal**  -  shift + super + right arrow    
 **Navigate**  -  alt + arrow keys </br>
-**Close term**  -  Ctrl + shift + w
+**Close term**  -  Ctrl + shift + w </br>
 **New tab**  -  Ctrl + shift + t </br>
 **Switch tab** - Ctrl + page up/down
