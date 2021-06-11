@@ -2,8 +2,13 @@
 
 # Terminator Key Bindings 
 Split vertical  -  Shift + super + down arrow
+
 Split Horizontal  -  shift + super + right arrow    
+
 Navigate  -  alt + arrow keys
+
 Close term  -  Ctrl + shift + w
+
 New tab  -  Ctrl + shift + t
+
 Switch tab - Ctrl + page up/down
